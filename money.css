@@ -1,0 +1,116 @@
+body {
+    font-family: 'Amiri', serif;
+    font-size: 16px;
+    margin: 20px;
+    background-color: #D9EDBF;
+    background-image: url('assets/ee.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  #calculator {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 500px; /* Adjust width as needed */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:400px;
+    
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+
+  }
+  
+  button {
+    width: 120px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #3E6246;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    display: block;
+
+  }
+  
+  button:hover {
+    background-color: #FF9800;
+    color: black;
+  }
+  
+  #result {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-top: 0;
+    color: #2C7865;
+    background-color: #D9EDBF;
+    height:120px;
+    
+    
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #zakat {
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) and (max-width: 1024px) {
+    #calculator {
+      width: 80%;
+      position: absolute;
+      top: 60%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+    #calculator {
+      top: 70%;
+    }
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+  }
+  
+ 
+  
