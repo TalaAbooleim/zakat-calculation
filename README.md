@@ -1,1 +1,1 @@
- https://github.com/<TalaAbooleim>/<zakat-calculation>
+https://<TalaAbooleim>.github.io/<zakat-calculation>
